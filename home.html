@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <style>
-        h2 {
+        .heading {
             background-color: aquamarine;
             color: red;
-            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+             text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
             text-align: center;
             border: solid red;
             font-size: 40px;
@@ -20,40 +20,56 @@
             font-size: x-large;
             border: solid rgb(105, 9, 9);
         }
+        p{
+            text-transform: uppercase;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        span{
+            background-color: rgb(40, 233, 40);
+            color: rgb(245, 101, 5);
+        }
+        li{
+            line-height: 40px;
+        }
+        #list{
+            background-color: cadetblue;
+        }
     </style>
 </head>
 
 <body>
-    <h2>Professional Summery.</h2>
+    <h2 class="heading">Carrier Objectives</h2>
+    <p>To Work in organization where i can learn and grow my skills and help organizational Growth.</p>
+    <h2  class="heading">Professional Summery.</h2>
     <div>
         <ul>
             <li>
                 Having 1 years of experience in developing Single page Web Application
-                using Angular8,HTML5,CSS3,Bootstrap,JavaScript,ES6,TypeScript
+                using <span>Angular8</span>,HTML5,CSS3,Bootstrap,JavaScript,ES6,TypeScript
             </li>
-            <br />
+            
             <li>
                 Experience on Working with version control system-GIT and GITHub
             </li>
-            <br />
-            <li>Experience working with JIRA for users stories and bug tracking</li>
-            <br />
+            <li id="list">Experience working with JIRA for users stories and bug tracking</li>
+            
             <li>
                 Strong Debugging and Troubleshooting code experience using Chrome
                 Developer Tool
             </li>
-            <br />
+            
             <li>Working exposure on ID's like VS Code and Notepad++</li>
-            <br />
+            
             <li>Good working experience under Agile methodology environment</li>
-            <br />
+        
             <li>
                 Experience in using Chrome Developer Tool for debugging and
                 troubleshooting the code
             </li>
-            <br />
+            
             <li>Knowledge of NodeJS</li>
-            <br />
+        
             <li>Ability to work with people at all levels in the program.</li>
             <li>Knowledge of Mongodb and expressJS</li>
         </ul>
