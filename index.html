@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
   <style>
-    header{
+    .headerSection{
       width: 1300px;
       text-align: center;
             font-size: x-large;
@@ -22,7 +22,7 @@
       
     }
      nav { 
-
+      margin-left: 20px;
       width: 1300px;
       text-align: center;
       font-size: x-large;
@@ -30,35 +30,46 @@
       /* font-weight: bolder; */
       /* text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 234), 0 0 0.2em rgb(255, 0, 119); */
     }
-    footer {
+    .footerSection {
       width: 1300px;
       text-align: center;
     }
     label{
       font-size: x-large;
     }
-    #desh{
+    #fontIcons{
       color: rgb(252, 19, 19);
     }
+.contact{
+  margin-right: 50px;
+}
+.header-icon{margin-right: 10px;}
+.footerIcons{
+  margin-right: 30px;
+}
+.navBar{
+  margin-right: 40px;
 
+  
+}
   </style>
 </head>
   <body>
     <!-- Header Section -->
-    <header>
-        <i class="fa fa-user" aria-hidden="true"></i>&nbsp;<span>Vishal Deshmukh</span> &nbsp;&nbsp; &nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"> &nbsp;</i><span>+91 9665 46 4885</span>&nbsp;&nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;<span>VishalDeshmukh@gmail.com</span>
+    <header class="headerSection">
+        <i class=" header-icon fa fa-user" aria-hidden="true"></i><span class="contact">Vishal Deshmukh</span> 
+        <i class="header-icon fa fa-phone-square" aria-hidden="true"> </i><span class="contact">+91 9665 46 4885</span>
+        <i class="header-icon fa fa-envelope" aria-hidden="true"></i> <span>VishalDeshmukh@gmail.com</span>
     </header>
     <br>
 <!-- Navigation section  -->
     <nav>
-        <a href="home.html" target="myFrame">HOME</a> &nbsp;&nbsp; &nbsp; &nbsp;
-        <a href="technologyStack.html" target="myFrame">TECH STACK</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="projectDetails.html" target="myFrame">PROJECT</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="education.html" target="myFrame">EDUCATION</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="others.html" target="myFrame">OTHERS</a> &nbsp;&nbsp;&nbsp; &nbsp;
-        <a href="personalDetails.html" target="myFrame">PERSONAL </a> &nbsp;&nbsp;&nbsp; &nbsp;
+        <a href="home.html" target="myFrame" class="navBar">HOME</a> 
+        <a href="technologyStack.html" target="myFrame" class="navBar">TECH STACK</a> 
+        <a href="projectDetails.html" target="myFrame" class="navBar">PROJECT</a>
+        <a href="education.html" target="myFrame" class="navBar">EDUCATION</a> 
+        <a href="others.html" target="myFrame" class="navBar">OTHERS</a> 
+        <a href="personalDetails.html" target="myFrame" class="navBar">PERSONAL </a> 
     </nav>
     <br>
 
@@ -71,18 +82,18 @@
  <br>
 
 <!-- Footer section  -->
-    <footer>
-        <label for=""> <strong> Follow me </strong> </label> &nbsp; &nbsp; &nbsp;&nbsp;
-        <a href="https://in.linkedin.com/">
-          <i class="fa fa-2x fa-linkedin-square" aria-hidden="true" id="desh"></i>
-        </a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.com/">
+    <footer class="footerSection">
+        <label for=""> <strong> Follow me </strong> </label> 
+        <a href="https://in.linkedin.com/" class="footerIcons">
+          <i class="fa fa-2x fa-linkedin-square" aria-hidden="true" id="fontIcons"></i>
+        </a> 
+        <a href="https://www.google.com/" class="footerIcons">
           <i class="fa fa-2x fa-google" aria-hidden="true"></i
-        ></a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/">
-          <i class="fa fa-2x fa-instagram" aria-hidden="true"id="desh" ></i
-        ></a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/"
+        ></a>
+        <a href="https://www.instagram.com/" class="footerIcons">
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"id="fontIcons" ></i
+        ></a>
+        <a href="https://www.facebook.com/" class="footerIcons"
           ><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
         </a>
-    </footer
+      </footer>

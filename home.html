@@ -21,41 +21,45 @@
 
         }
 
-        div {
+        .mainPage {
             background-color: rgb(245, 230, 241);
             font-size: x-large;
             border: solid rgb(105, 9, 9);
         }
-        p{
+        #Objectives{
             text-transform: uppercase;
             font-size: x-large;
             font-weight: bold;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
         }
-        span{
-            background-color: rgb(40, 233, 40);
+        #angular{
+            background-color: rgb(213, 230, 213);
             color: rgb(245, 101, 5);
+            font-size: 30px;
         }
-        li{
+        .tools{
             font-family: 'Poppins', sans-serif;
-            line-height: 40px;
-            letter-spacing: 4px;
+            line-height: 60px;
+            
         }
         #list{
             background-color: cadetblue;
+        }
+        #list1{
+            background-color: red;
         }
     </style>
 </head>
 
 <body>
     <h2 class="heading">Carrier Objectives</h2>
-    <p>To Work in organization where i can learn and grow my skills and help organizational Growth.</p>
+    <p id="Objectives">To Work in organization where i can learn and grow my skills and help organizational Growth.</p>
     <h2  class="heading">Professional Summery.</h2>
-    <div>
-        <ul>
+    <div class="mainPage">
+        <ul class="tools">
             <li>
                 Having 1 years of experience in developing Single page Web Application
-                using <span>Angular8</span>,HTML5,CSS3,Bootstrap,JavaScript,ES6,TypeScript
+                using <span id="angular">Angular8</span>,HTML5,CSS3,Bootstrap,JavaScript,ES6,TypeScript
             </li>
             
             <li>
@@ -68,7 +72,7 @@
                 Developer Tool
             </li>
             
-            <li>Working exposure on ID's like VS Code and Notepad++</li>
+            <li id="list1">Working exposure on ID's like VS Code and Notepad++</li>
             
             <li>Good working experience under Agile methodology environment</li>
         
